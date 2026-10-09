@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791426274,
+        "narHash": "sha256-MWhktfFtFE8Jl7bf9Pkp7TR5MSdYCjCswSo0Gkb4ywc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7c8764b7c7b09b34f632464276218ef9090eaa11",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "zine": "zine"
+      }
+    },
+    "zine": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1788433759,
+        "narHash": "sha256-Te+rT1mgHYhOeP89AhAcb+mKnA4AklnwsNRwNgX5lAo=",
+        "type": "tarball",
+        "url": "https://github.com/kristoff-it/zine/releases/download/v0.14.0/x86_64-linux-musl.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/kristoff-it/zine/releases/download/v0.14.0/x86_64-linux-musl.tar.xz"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
